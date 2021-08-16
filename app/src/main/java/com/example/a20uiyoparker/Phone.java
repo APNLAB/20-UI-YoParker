@@ -22,12 +22,12 @@ public class Phone extends AppCompatActivity {
 
         btn = findViewById(R.id.btn);
 
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Phone.this, Verification.class);
-//                startActivity(intent);
-//            }
-//        });
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Phone.this, Verification.class);
+                startActivity(intent);
+            }
+        });
     }
 }
