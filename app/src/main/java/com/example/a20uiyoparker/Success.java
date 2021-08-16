@@ -1,4 +1,4 @@
- package com.example.a20uiyoparker;
+package com.example.a20uiyoparker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,14 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
- public class Verification extends AppCompatActivity {
+public class Success extends AppCompatActivity {
 
-     Button btn;
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.verification);
+        setContentView(R.layout.success);
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
@@ -22,12 +22,12 @@ import android.widget.Button;
 
         btn = findViewById(R.id.btn);
 
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Verification.this, Success.class);
-                startActivity(intent);
-            }
-        });
+//        btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Success.this, Home.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }
