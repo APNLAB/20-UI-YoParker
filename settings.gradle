@@ -1,0 +1,2 @@
+rootProject.name = "20 UI YoParker"
+include ':app'
