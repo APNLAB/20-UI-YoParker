@@ -20,14 +20,14 @@ public class Locations extends AppCompatActivity {
             getSupportActionBar().hide();
         }
 
-//        currentLoc = findViewById(R.id.currentLoc);
-//
-//        currentLoc.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Locations.this, Phone.class);
-//                startActivity(intent);
-//            }
-//        });
+        currentLoc = findViewById(R.id.currentLoc);
+
+        currentLoc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Locations.this, Phone.class);
+                startActivity(intent);
+            }
+        });
     }
 }
