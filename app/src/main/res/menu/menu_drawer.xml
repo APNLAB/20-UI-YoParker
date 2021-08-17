@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/group95"
+        android:title="My Booking" />
+
+    <item
+        android:icon="@drawable/group101"
+        android:title="Find My Vehicle" />
+
+    <item
+        android:title="Rent your Spot" />
+
+    <item
+        android:icon="@drawable/group102"
+        android:title="Rent Parking" />
+
+    <item
+        android:title="We Listen" />
+
+    <item
+        android:icon="@drawable/group103"
+        android:title="Feedback" />
+
+    <item
+        android:icon="@drawable/group104"
+        android:title="Refer and Earn" />
+
+    <item
+        android:icon="@drawable/group105"
+        android:title="Share" />
+
+    <item
+        android:icon="@drawable/group106"
+        android:title="Rate Us" />
+
+    <item
+        android:icon="@drawable/group108"
+        android:title="Setting" />
+
+    <item
+        android:icon="@drawable/group107"
+        android:title="Logout" />
+
+</menu>
