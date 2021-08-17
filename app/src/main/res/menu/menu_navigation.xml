@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/parkingNav"
+        android:icon="@drawable/group102"
+        android:title="parking" />
+
+    <item
+        android:id="@+id/bookingNav"
+        android:icon="@drawable/group100"
+        android:title="booking" />
+
+    <item
+        android:id="@+id/walletsNav"
+        android:icon="@drawable/group92"
+        android:title="wallets" />
+
+    <item
+        android:id="@+id/meNav"
+        android:icon="@drawable/group93"
+        android:title="me" />
+
+</menu>

@@ -22,12 +22,12 @@ public class Success extends AppCompatActivity {
 
         btn = findViewById(R.id.btn);
 
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(Success.this, Home.class);
-//                startActivity(intent);
-//            }
-//        });
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Success.this, BottomNavBar.class);
+                startActivity(intent);
+            }
+        });
     }
 }
