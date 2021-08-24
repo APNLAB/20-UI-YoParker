@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.20UIYoParker">
-        <activity android:name=".List_view"></activity>
+        <activity android:name=".Overview"></activity>
+        <activity android:name=".List_view" />
         <activity android:name=".Profile_A" />
         <activity android:name=".Wallets_A" />
         <activity android:name=".MyBooking_A" />
