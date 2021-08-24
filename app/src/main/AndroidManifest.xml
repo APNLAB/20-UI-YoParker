@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.20UIYoParker">
-        <activity android:name=".Refer_Earn"></activity>
+        <activity android:name=".List_view"></activity>
+        <activity android:name=".Profile_A" />
+        <activity android:name=".Wallets_A" />
+        <activity android:name=".MyBooking_A" />
+        <activity android:name=".Home_A" />
+        <activity android:name=".Details" />
+        <activity android:name=".Refer_Earn" />
         <activity android:name=".Edit_Profile_1" />
         <activity android:name=".Rate_Reviews" />
         <activity android:name=".Reviews" />

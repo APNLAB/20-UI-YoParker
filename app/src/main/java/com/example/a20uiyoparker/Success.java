@@ -25,7 +25,8 @@ public class Success extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Success.this, BottomNavBar.class);
+                //Intent intent = new Intent(Success.this, BottomNavBar.class);
+                Intent intent = new Intent(Success.this, Home_A.class);
                 startActivity(intent);
             }
         });

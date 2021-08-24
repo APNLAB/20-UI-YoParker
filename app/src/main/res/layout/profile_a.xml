@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:backgroundTint="@color/grey1"
     android:orientation="vertical"
-    tools:context=".Profile">
+    tools:context=".Profile_A">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -108,14 +108,14 @@
                     android:layout_toRightOf="@id/v"
                     android:layout_marginStart="10dp"
                     android:text="Verified Customer"
+                    android:textStyle="bold"
                     android:textSize="20sp" />
 
-                <ImageView
-                    android:id="@+id/e"
+                <ImageButton
+                    android:id="@+id/editBtn"
                     android:layout_alignParentEnd="true"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-
                     android:src="@drawable/group112" />
             </RelativeLayout>
 
@@ -125,6 +125,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
                 android:text="+91 81365984255"
+                android:textStyle="bold"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -133,7 +134,7 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:backgroundTint="@color/white"
         app:cardCornerRadius="10dp">
@@ -149,6 +150,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Add Vehicle"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
             <View
@@ -162,6 +164,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="My Waller"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
             <View
@@ -175,6 +178,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Notification"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
             <View
@@ -188,6 +192,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Support"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
             <View
@@ -201,9 +206,22 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Logout"
+                android:textStyle="bold"
                 android:textSize="16sp" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/menu_navigation"/>
+
+    </RelativeLayout>
 </LinearLayout>

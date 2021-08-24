@@ -31,7 +31,9 @@
             android:backgroundTint="@color/yellow"
             android:text="free"
             android:textSize="12sp"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+
+            />
 
         <Button
             android:layout_width="wrap_content"
@@ -45,10 +47,10 @@
 
     <ImageView
         android:id="@+id/closeImage"
-        android:layout_toRightOf="@id/free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_toEndOf="@+id/free"
         android:src="@drawable/group99" />
 
 </RelativeLayout>
