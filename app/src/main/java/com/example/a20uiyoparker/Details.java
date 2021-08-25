@@ -15,15 +15,20 @@ public class Details extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.details);
 
-        Button overView;
-
-        overView = findViewById(R.id.overView);
+        Button overView= findViewById(R.id.overView);
+        Button start= findViewById(R.id.start);
 
         overView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Details.this, Overview.class));
-                finish();
+            }
+        });
+
+        start.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Details.this, Start.class));
             }
         });
     }
