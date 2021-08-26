@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.20UIYoParker">
-        <activity android:name=".Start"></activity>
+        <activity android:name=".Start" />
         <activity android:name=".Overview" />
         <activity android:name=".List_view" />
         <activity android:name=".Profile_A" />

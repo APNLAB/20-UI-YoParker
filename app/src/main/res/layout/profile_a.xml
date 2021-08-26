@@ -113,9 +113,9 @@
 
                 <ImageButton
                     android:id="@+id/editBtn"
-                    android:layout_alignParentEnd="true"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
                     android:src="@drawable/group112" />
             </RelativeLayout>
 
