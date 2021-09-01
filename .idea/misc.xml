@@ -6,6 +6,7 @@
         <entry key="..\:/MyApps/Android/20UIYoParker/app/src/main/res/drawable-xhdpi/btnround_blue.xml" value="0.18611111111111112" />
         <entry key="..\:/MyApps/Android/20UIYoParker/app/src/main/res/drawable/left_corner_button.xml" value="0.18611111111111112" />
         <entry key="..\:/MyApps/Android/20UIYoParker/app/src/main/res/drawable/right_corner_button.xml" value="0.21388888888888888" />
+        <entry key="..\:/MyApps/Android/20UIYoParker/app/src/main/res/layout/add_card.xml" value="0.22" />
         <entry key="..\:/MyApps/Android/20UIYoParker/app/src/main/res/layout/details.xml" value="0.1" />
         <entry key="..\:/MyApps/Android/20UIYoParker/app/src/main/res/layout/edit_profile.xml" value="0.19680365296803654" />
         <entry key="..\:/MyApps/Android/20UIYoParker/app/src/main/res/layout/overview.xml" value="0.19680365296803654" />
@@ -21,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>
