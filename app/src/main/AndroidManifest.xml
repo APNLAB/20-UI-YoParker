@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.20UIYoParker">
+        <activity
+            android:name=".Splash"
+            android:exported="true" />
         <activity android:name=".Start" />
         <activity android:name=".Overview" />
         <activity android:name=".List_view" />
@@ -27,7 +30,7 @@
         <activity android:name=".Verification" />
         <activity android:name=".Phone" />
         <activity android:name=".Locations" />
-        <activity android:name=".Splash">
+        <activity android:name=".Wallets">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
