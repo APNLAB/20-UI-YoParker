@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rent_parking_2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/red"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:src="@drawable/back"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/private_parking"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/features_about_your_parkinglot"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue" />
+
+
+    <EditText
+        android:id="@+id/editTextPersonName_parking"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/enter_the_features_of_your_space"
+        android:textColor="#757575"
+        android:textColorHint="@color/black"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pricing_inforamtion"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioButton_bike"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/image_round_button"
+            android:drawableStart="@drawable/bike"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:radius="6dp"
+            android:text="  Bike"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/radioButton_car"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/image_round_button"
+            android:drawableStart="@drawable/car"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="  Car" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_space"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edit_total_space"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:contentDescription=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price_per_hour"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edit_price_per_hour"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price_per_day"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edit_price_per_day"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price_per_month1"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edit_price_per_month"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:importantForAutofill="no" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_p_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="15dp"
+        android:drawableEnd="@drawable/arrowcopy"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="16dp"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="100dp"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>
