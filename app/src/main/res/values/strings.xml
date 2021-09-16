@@ -6,4 +6,5 @@
     <string name="commercial_parking_space">commercial parking space</string>
     <string name="private_park">Private Park</string>
     <string name="button">button</string>
+    <string name="pp_id">Private Parking</string>
 </resources>

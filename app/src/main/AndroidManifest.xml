@@ -10,13 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.20UIYoParker">
         <activity
-            android:name=".Upload_images"
-            android:exported="true">
+            android:name=".Rent_parking_1"
+            android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+        </activity>
+        <activity
+            android:name=".Upload_images"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".Rent_parking"
@@ -50,7 +55,7 @@
         <activity android:name=".Verification" />
         <activity android:name=".Phone" />
         <activity android:name=".Locations" />
-        <activity android:name=".Add_Card"></activity>
+        <activity android:name=".Add_Card" />
     </application>
 
 </manifest>
