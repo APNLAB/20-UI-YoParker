@@ -18,13 +18,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:contentDescription=""
-            android:src="@drawable/back" />
+            android:contentDescription="@string/button"
+            android:src="@drawable/back"
+            tools:ignore="RedundantDescriptionCheck" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Rent A Parking"
+            android:text="@string/rent_a_parking"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -40,7 +41,7 @@
 
         android:paddingHorizontal="24dp"
         android:paddingVertical="16dp"
-        android:text="commercial parking space"
+        android:text="@string/commercial_parking_space"
         android:textSize="16sp"
         app:backgroundTint="@color/blue"
         app:cornerRadius="100dp" />
@@ -54,15 +55,16 @@
         android:layout_marginTop="10dp"
         android:paddingHorizontal="24dp"
         android:paddingVertical="16dp"
-        android:text="Private Park"
-        android:textSize="16sp"
+        android:text="@string/private_park"
+        android:textColor="#000000"
 
+        android:textSize="16sp"
         app:cornerRadius="100dp" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="match_parent"
-        android:layout_height="214dp"
+        android:layout_height="215dp"
         android:layout_marginTop="77dp"
         app:srcCompat="@drawable/commercial" />
 
