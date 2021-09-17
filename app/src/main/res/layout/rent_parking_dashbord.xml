@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey1"
+    tools:context=".RentParking_dashbord">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Dashboard"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+            app:layout_constraintStart_toEndOf="@+id/imageView15"
+            app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Welcome!"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Neel Mewada"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView142" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/yellow_button"
+        android:paddingLeft="2dp"
+        android:paddingTop="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:text="free"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/button17"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:text="post your space"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button17">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/article" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Metro Parking"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView65"
+                app:layout_constraintTop_toTopOf="@+id/imageView65" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:text="ON THE GROUND PARKING"
+                android:textColor="@color/red"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView65"
+                app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Black"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView66"
+                app:layout_constraintStart_toEndOf="@+id/imageView66"
+                app:layout_constraintTop_toTopOf="@+id/imageView66" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Maruthi Suzuki"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView68"
+                app:layout_constraintStart_toEndOf="@+id/imageView68"
+                app:layout_constraintTop_toTopOf="@+id/imageView68" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Maruthi Suzuki Swift"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView69"
+                app:layout_constraintStart_toEndOf="@+id/imageView69"
+                app:layout_constraintTop_toTopOf="@+id/imageView69" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:layout_constraintStart_toStartOf="@+id/textView112"
+                app:layout_constraintTop_toBottomOf="@+id/textView112"
+                app:srcCompat="@drawable/group123" />
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView66"
+                app:layout_constraintTop_toBottomOf="@+id/imageView66"
+                app:srcCompat="@drawable/group97" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+                app:layout_constraintStart_toStartOf="@+id/imageView68"
+                app:layout_constraintTop_toBottomOf="@+id/imageView68"
+                app:srcCompat="@drawable/group96" />
+
+            <View
+                android:id="@+id/divider16"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Increase visibility to get more responses by \n Parking users"
+                android:textColor="@color/blue"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider16" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/divider17"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="?android:attr/listDivider"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView152" />
+
+                <TextView
+                    android:id="@+id/textView152"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Maruthi Suzuki Swift"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView75"
+                    app:layout_constraintStart_toEndOf="@+id/imageView75"
+                    app:layout_constraintTop_toTopOf="@+id/imageView75"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:id="@+id/imageView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+                    app:layout_constraintStart_toStartOf="@+id/imageView74"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView74"
+                    app:srcCompat="@drawable/group96" />
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Maruthi Suzuki"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView74"
+                    app:layout_constraintStart_toEndOf="@+id/imageView74"
+                    app:layout_constraintTop_toTopOf="@+id/imageView74" />
+
+                <ImageView
+                    android:id="@+id/imageView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    app:layout_constraintStart_toStartOf="@+id/imageView73"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView73"
+                    app:srcCompat="@drawable/group97" />
+
+                <TextView
+                    android:id="@+id/textView150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Black"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView73"
+                    app:layout_constraintStart_toEndOf="@+id/imageView73"
+                    app:layout_constraintTop_toTopOf="@+id/imageView73" />
+
+                <ImageView
+                    android:id="@+id/imageView73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView149"
+                    app:layout_constraintTop_toBottomOf="@+id/textView149"
+                    app:srcCompat="@drawable/group123" />
+
+                <TextView
+                    android:id="@+id/textView149"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="ON THE GROUND PARKING"
+                    android:textColor="@color/red"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView148"
+                    app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+                <TextView
+                    android:id="@+id/textView148"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Metro Parking"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imageView72"
+                    app:layout_constraintTop_toTopOf="@+id/imageView72" />
+
+                <ImageView
+                    android:id="@+id/imageView72"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/article" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/vehicle_btn"
+                android:padding="4dp"
+                android:text="Upgrade to Premium"
+                android:textColor="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView144"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/vehicle_btn"
+                android:padding="4dp"
+                android:text="Active"
+                android:textColor="@color/green"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Deactive"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView144" />
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView145"
+                app:layout_constraintEnd_toStartOf="@+id/textView145"
+                app:layout_constraintTop_toTopOf="@+id/textView145"
+                app:srcCompat="@drawable/close" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="Edit"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView70"
+                app:layout_constraintEnd_toStartOf="@+id/imageView70"
+                app:layout_constraintTop_toTopOf="@+id/imageView70" />
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView146"
+                app:layout_constraintEnd_toStartOf="@+id/textView146"
+                app:layout_constraintTop_toTopOf="@+id/textView146"
+                app:srcCompat="@drawable/edit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/vehicle_btn"
+                android:padding="4dp"
+                android:text="Pending"
+                android:textColor="@color/red"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView158"
+                app:layout_constraintEnd_toStartOf="@+id/textView158"
+                app:layout_constraintTop_toTopOf="@+id/textView158"
+                app:srcCompat="@drawable/edit" />
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="Edit"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView76"
+                app:layout_constraintEnd_toStartOf="@+id/imageView76"
+                app:layout_constraintTop_toTopOf="@+id/imageView76" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView156"
+                app:layout_constraintEnd_toStartOf="@+id/textView156"
+                app:layout_constraintTop_toTopOf="@+id/textView156"
+                app:srcCompat="@drawable/close" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Deactive"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView154" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/vehicle_btn"
+                android:padding="4dp"
+                android:text="Upgrade to Premium"
+                android:textColor="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView154"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Increase visibility to get more responses by \n Parking users"
+                android:textColor="@color/blue"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider17" />
+
+            <View
+                android:id="@+id/divider17"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView152" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Maruthi Suzuki Swift"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView75"
+                app:layout_constraintStart_toEndOf="@+id/imageView75"
+                app:layout_constraintTop_toTopOf="@+id/imageView75"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+                app:layout_constraintStart_toStartOf="@+id/imageView74"
+                app:layout_constraintTop_toBottomOf="@+id/imageView74"
+                app:srcCompat="@drawable/group96" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Maruthi Suzuki"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView74"
+                app:layout_constraintStart_toEndOf="@+id/imageView74"
+                app:layout_constraintTop_toTopOf="@+id/imageView74" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:layout_constraintStart_toStartOf="@+id/imageView73"
+                app:layout_constraintTop_toBottomOf="@+id/imageView73"
+                app:srcCompat="@drawable/group97" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Black"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView73"
+                app:layout_constraintStart_toEndOf="@+id/imageView73"
+                app:layout_constraintTop_toTopOf="@+id/imageView73" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                app:layout_constraintStart_toStartOf="@+id/textView149"
+                app:layout_constraintTop_toBottomOf="@+id/textView149"
+                app:srcCompat="@drawable/group123" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="ON THE GROUND PARKING"
+                android:textColor="@color/red"
+                android:textSize="10sp"
+                app:layout_constraintStart_toStartOf="@+id/textView148"
+                app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Metro Parking"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView72"
+                app:layout_constraintTop_toTopOf="@+id/imageView72" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/article" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

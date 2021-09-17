@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.20UIYoParker">
         <activity
+            android:name=".Details"
+            android:exported="true" />
+        <activity
+            android:name=".RentParking_dashbord"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentOptionss"
+            android:exported="true" />
+        <activity
+            android:name=".MyBooking_1"
+            android:exported="true" />
+        <activity
+            android:name=".VehicleList"
+            android:exported="true" />
+        <activity
+            android:name=".Add_Vehicle"
+            android:exported="true" />
+        <activity
+            android:name=".Support"
+            android:exported="true" />
+        <activity
+            android:name=".Booked"
+            android:exported="true" />
+        <activity
+            android:name=".Credit_Debit"
+            android:exported="true" />
+        <activity
+            android:name=".Make_Payment"
+            android:exported="true" />
+        <activity
+            android:name=".Reserve_Confirm"
+            android:exported="true" />
+        <activity
+            android:name=".Add_Card"
+            android:exported="true" />
+        <activity
             android:name=".Wallets"
             android:exported="true" />
         <activity
@@ -22,7 +58,7 @@
         <activity android:name=".Wallets_A" />
         <activity android:name=".MyBooking_A" />
         <activity android:name=".Home_A" />
-        <activity android:name=".Details" />
+        <activity android:name=".Locationss" />
         <activity android:name=".Refer_Earn" />
         <activity android:name=".Edit_Profile_1" />
         <activity android:name=".Rate_Reviews" />
@@ -33,7 +69,7 @@
         <activity android:name=".Verification" />
         <activity android:name=".Phone" />
         <activity android:name=".Locations" />
-        <activity android:name=".Add_Card">
+        <activity android:name=".SelectParkigPopup">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
