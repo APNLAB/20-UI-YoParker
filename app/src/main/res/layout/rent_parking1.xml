@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Rent_parking_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/red"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/pp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pp_id"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Select Space Type : "
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edit_select_place"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:drawableEnd="@drawable/group138"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:text=" Set opening time : "
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="25dp"
+                android:text=" Set closing time: "
+                android:textSize="20sp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:autofillHints=""
+                android:id="@+id/editTextTime"
+                style="@style/Widget.MaterialComponents.TimePicker.Display.TextInputEditText"
+                android:layout_width="140dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/image_round_button"
+                android:ems="10"
+                android:gravity="center_vertical"
+                android:inputType="time"
+                android:maxLength="8"
+                android:text="9:30 PM"
+                android:textColor="@color/red"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTime1"
+                style="@style/Widget.MaterialComponents.TimePicker.Display.TextInputEditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:maxLength="8"
+                android:ems="10"
+                android:text="10:30 PM"
+                android:textSize="30sp"
+                android:background="@drawable/image_round_button"
+                android:inputType="time"
+                android:textColor="@color/red"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Enter Parking Name : "
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edit_parking_name"
+        android:layout_width="371dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you are :"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1).Bussiness, use your company name, building street name"
+        android:textSize="20sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/blue"/>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2).Individual, use your park type, building street name"
+        android:textSize="20sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/blue"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_gravity="center"
+        android:paddingVertical="16dp"
+        android:paddingHorizontal="24dp"
+        android:text="NEXT"
+        android:textSize="24sp"
+        android:drawableEnd="@drawable/group79"
+        app:cornerRadius="100dp" />
+
+
+
+</LinearLayout>

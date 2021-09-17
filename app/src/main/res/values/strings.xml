@@ -2,4 +2,23 @@
     <string name="app_name">20 UI YoParker</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rent_a_parking">Rent A Parking</string>
+    <string name="commercial_parking_space">commercial parking space</string>
+    <string name="private_park">Private Park</string>
+    <string name="button">button</string>
+    <string name="pp_id">Private Parking</string>
+    <string name="private_parking">Private Parking</string>
+    <string name="features_about_your_parkinglot">Features about your ParkingLot :</string>
+    <string name="pricing_inforamtion">Pricing Inforamtion :</string>
+    <string name="bike">Bike</string>
+    <string name="car">Car</string>
+    <string name="total_space">Total Space</string>
+    <string name="price_per_hour">Price Per Hour</string>
+    <string name="price_per_day">Price Per Day</string>
+    <string name="price_per_month">" Price Per Month"</string>
+    <string name="next">Next</string>
+    <string name="price_per_month1">price per month</string>
+    <string name="enter_the_features_of_your_space">Enter the features of your space</string>
+    <string name="todo">TODO</string>
+    <string name="radioButton_car">"  Car"</string>
 </resources>
